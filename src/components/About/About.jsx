@@ -39,11 +39,14 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    "Kyle is a blockchain engineer and researcher currently focused on developing smart contracts and managing blockchain Nodes as a Service (NaaS) platforms. He has been active in the blockchain space since 2011 and has contributed to blockchain security research in conjunction with the University of South Florida's Department of Mathematics & Statistics."}
+                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    "He has deep technical knowledge of blockchains, smart contracts, and oracles along with the ability to explain highly complex systems in an easily digestible format, as shown in his technical articles. His unique cultural background from the island of Curacao and his experience in the blockchain space makes him incredibly useful in this ever growing field of technology."}
+                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
