@@ -1,12 +1,10 @@
 {
-  "homepage": "https://kwsantiago.github.io/",
-  "name": "kwsantiago-gh-page",
+  "name": "kwsantiago-ghpage",
   "private": true,
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -b gh-pages1 -d build",
+    "deploy": "gatsby build && gh-pages -b gh-pages1 -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
