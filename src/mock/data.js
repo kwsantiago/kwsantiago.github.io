@@ -2,56 +2,55 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Kyle W. Santiago | Blockchain Engineer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Kyle W. Santiago',
+  subtitle: 'I am a blockchain engineer and researcher.',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: "Kyle is a blockchain engineer and researcher currently focused on developing smart contracts and managing blockchain Nodes as a Service (NaaS) platforms. He has been active in the blockchain space since 2011 and has contributed to blockchain security research in conjunction with the University of South Florida's Department of Mathematics & Statistics.",
+  paragraphTwo: 'He has deep technical knowledge of blockchains, smart contracts, and oracles along with the ability to explain highly complex systems in an easily digestible format, as shown in his technical articles. His unique cultural background from the island of Curacao and his experience in the blockchain space makes him incredibly useful in this ever growing field of technology.',
+  resume: 'https://www.linkedin.com/in/kwsantiago/',
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project1.jpg',
+    title: 'Chainlink OTP',
+    info: 'One-Time Pad generator using Chainlink VRF. I built the frontend with React and set up the smart contract in Solidity.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://chainlinkotp.privkey.io/',
+    repo: 'https://github.com/kwsantiago/Chainlink-OTP',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project2.jpg',
+    title: 'Chainlink Florida',
+    info: 'Chainlink Florida community website. I built the frontend in React and am active in the Chainlink community.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://kwsantiago.github.io/Chainlink-Florida/',
+    repo: 'https://github.com/kwsantiago/Chainlink-Florida',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project3.jpg',
+    info: 'Digital Asset Investment Fund website. I built the frontend in React and am part of the fund as the Chief Investment Officer.',
+    title: 'CoinStriker',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://kwsantiago.github.io/CoinStriker/',
+    repo: 'https://github.com/kwsantiago/CoinStriker',
   },
 ];
 
@@ -59,7 +58,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'kwsantiago@usf.edu',
 };
 
 // FOOTER DATA
@@ -68,27 +67,22 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/kwsantiago',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/kwsantiago/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/kwsantiago',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
