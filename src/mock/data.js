@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Kyle W. Santiago | Blockchain Engineer', // e.g: 'Name | Developer'
+  title: 'Kyle Santiago | Blockchain Engineer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my website', // e.g: Welcome to my website
 };
@@ -10,7 +10,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: 'Kyle W. Santiago',
+  name: 'Kyle Santiago',
   subtitle: 'I am a blockchain engineer and researcher.',
   cta: '',
 };
@@ -66,8 +66,8 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: 'https://twitter.com/kwsantiago',
+      name: 'medium',
+      url: 'https://medium.com/@kwsantiago',
     },
     {
       id: nanoid(),
