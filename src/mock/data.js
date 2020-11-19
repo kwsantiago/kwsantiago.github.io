@@ -40,7 +40,7 @@ export const projectsData = [
     title: 'Chainlink Florida',
     info: 'Chainlink Florida community website. I built the frontend in React and am active in the Chainlink community.',
     info2: '',
-    url: 'https://kwsantiago.github.io/Chainlink-Florida/',
+    url: 'https://www.chainlinkflorida.com',
     repo: 'https://github.com/kwsantiago/Chainlink-Florida',
   },
   {
